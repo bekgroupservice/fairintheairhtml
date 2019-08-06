@@ -8542,37 +8542,6 @@ fieldset {
     animation-delay: .3s
 }
 
-@font-face {
-    font-family: "avenir-black";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-black/Avenir-Black.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-black/avenir-black.woff2) format("woff2"), url(../fonts/avenir-black/Avenir-Black.woff) format("woff"), url(../fonts/avenir-black/Avenir_95_Black.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "avenir-roman";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-roman/avenir-roman.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-roman/avenir-roman-webfont.woff2) format("woff2"), url(../fonts/avenir-roman/avenir-roman.woff) format("woff"), url(../fonts/avenir-roman/avenir-roman-webfont.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-bold";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-bold/helveticaneue.woff2) format("woff2"), url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.woff) format("woff"), url(../fonts/helvetica-neue-bold/Helvetica-Neue-Bold_22498.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-light";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-light/helveticaneue-light-webfont.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-light/HelveticaNeue-Light.woff2) format("woff2"), url('../fonts/helvetica-neue-light/HelveticaNeue Light.woff') format("woff"), url(../fonts/helvetica-neue-light/Helvetica-Neue-Light_22503.ttf) format("truetype")
-}
 
 html {
     scroll-behavior: smooth
@@ -27360,37 +27329,6 @@ img {
     }
 }
 
-@font-face {
-    font-family: "avenir-black";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-black/Avenir-Black.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-black/avenir-black.woff2) format("woff2"), url(../fonts/avenir-black/Avenir-Black.woff) format("woff"), url(../fonts/avenir-black/Avenir_95_Black.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "avenir-roman";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-roman/avenir-roman.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-roman/avenir-roman-webfont.woff2) format("woff2"), url(../fonts/avenir-roman/avenir-roman.woff) format("woff"), url(../fonts/avenir-roman/avenir-roman-webfont.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-bold";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-bold/helveticaneue.woff2) format("woff2"), url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.woff) format("woff"), url(../fonts/helvetica-neue-bold/Helvetica-Neue-Bold_22498.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-light";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-light/helveticaneue-light-webfont.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-light/HelveticaNeue-Light.woff2) format("woff2"), url('../fonts/helvetica-neue-light/HelveticaNeue Light.woff') format("woff"), url(../fonts/helvetica-neue-light/Helvetica-Neue-Light_22503.ttf) format("truetype")
-}
 
 html {
     scroll-behavior: smooth
@@ -35427,37 +35365,6 @@ img {
 
 
 
-@font-face {
-    font-family: "avenir-black";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-black/Avenir-Black.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-black/avenir-black.woff2) format("woff2"), url(../fonts/avenir-black/Avenir-Black.woff) format("woff"), url(../fonts/avenir-black/Avenir_95_Black.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "avenir-roman";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-roman/avenir-roman.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-roman/avenir-roman-webfont.woff2) format("woff2"), url(../fonts/avenir-roman/avenir-roman.woff) format("woff"), url(../fonts/avenir-roman/avenir-roman-webfont.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-bold";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-bold/helveticaneue.woff2) format("woff2"), url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.woff) format("woff"), url(../fonts/helvetica-neue-bold/Helvetica-Neue-Bold_22498.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-light";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-light/helveticaneue-light-webfont.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-light/HelveticaNeue-Light.woff2) format("woff2"), url('../fonts/helvetica-neue-light/HelveticaNeue Light.woff') format("woff"), url(../fonts/helvetica-neue-light/Helvetica-Neue-Light_22503.ttf) format("truetype")
-}
 
 * {
     -moz-box-sizing: border-box;
@@ -60169,37 +60076,6 @@ p {
     }
 }
 
-@font-face {
-    font-family: "avenir-black";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-black/Avenir-Black.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-black/avenir-black.woff2) format("woff2"), url(../fonts/avenir-black/Avenir-Black.woff) format("woff"), url(../fonts/avenir-black/Avenir_95_Black.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "avenir-roman";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/avenir-roman/avenir-roman.eot) format("embedded-opentype");
-    src: url(../fonts/avenir-roman/avenir-roman-webfont.woff2) format("woff2"), url(../fonts/avenir-roman/avenir-roman.woff) format("woff"), url(../fonts/avenir-roman/avenir-roman-webfont.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-bold";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-bold/helveticaneue.woff2) format("woff2"), url(../fonts/helvetica-neue-bold/HelveticaNeue-Bold.woff) format("woff"), url(../fonts/helvetica-neue-bold/Helvetica-Neue-Bold_22498.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "helvetica-neue-light";
-    font-style: normal;
-    font-weight: 400;
-    src: url(../fonts/helvetica-neue-light/helveticaneue-light-webfont.eot) format("embedded-opentype");
-    src: url(../fonts/helvetica-neue-light/HelveticaNeue-Light.woff2) format("woff2"), url('../fonts/helvetica-neue-light/HelveticaNeue Light.woff') format("woff"), url(../fonts/helvetica-neue-light/Helvetica-Neue-Light_22503.ttf) format("truetype")
-}
 
 .owl-nav {
     display: none !important
