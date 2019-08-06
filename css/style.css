@@ -59511,12 +59511,12 @@ p {
 }
 
 .title-card h3,
-.title-card i {
+/*.title-card i {
     color: #006484;
     font-family: "helvetica-neue-bold";
     font-size: 21px;
     font-weight: 700
-}
+}*/
 
 .title-card p {
     color: #fff;
@@ -75272,11 +75272,11 @@ p {
 }
 
 .title-card h3,
-.title-card i {
+/*.title-card i {
     color: #006484;
     font-weight: 700;
     font-family: "helvetica-neue-bold"
-}
+}*/
 
 .title-card p {
     color: #fff;
