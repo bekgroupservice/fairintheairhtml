@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Mehr-Presse</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" media="all">
+    <link rel="stylesheet" href="css/basic.css" media="all">
+    <link rel="stylesheet" href="./css/all.min.css" media="all">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/timelineslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+
+<body class="style-Ansch">
+
+    <!-- start menu -->
+    <div class="container-fluid">
+
+        <div class="menu-holder">
+
+            <div class="container-fluid menu">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-menu"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"> <a class="nav-link" href="index.html">HOME
+                                    <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                            <li class="nav-item dropdown sub-nav">
+                                <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">MEIN
+                                    RECHTSANSPRUCH</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" role="button">
+                                    <a class="dropdown-item" href="Rechtsanspruch-Flugausfall.html">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object6.png" alt="">
+                                            <span class="text-center">BEI FLUGAUSFALL</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Flugverspätung.html">
+                                        <img class="insight" src="img/subnav/Layer-53.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object5.png" alt="">
+                                            <span class="text-center">BEI FLUGVERSPÄTUNG</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Überbuchung.html">
+                                        <img class="insight" src="img/subnav/Layer-59.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object4.png" alt="">
+                                            <span class="text-center">BEI ÜBERBUCHUNG DES FLUGES</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Anschlussflug.html">
+                                        <img class="insight" src="img/subnav/Layer-60.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img class="m-b" src="img/subnav/Vector-Smart-Object3.png" alt="">
+                                            <span class="text-center">BEI VERPASSTEM ANSCHLUSSFLUG</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Streik.html">
+                                        <img class="insight" src="img/subnav/Layer-61.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object2.png" alt="">
+                                            <span class="text-center">BEI STREIK</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Unwetter.html">
+                                        <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                            <span class="text-center">BEI UNWETTER</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Reiserecht.html">
+                                        <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                            <span class="text-center">FLUGGASTRECHT & REISERECHT</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown1"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> FLUGINFORMATION </a>
+                                <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item active" href="Fluginformationen-Flugausfälle.html">AKTUELLE
+                                        FLUGAUSFÄLLE</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Flugverspätung.html">AKTUELLE
+                                        FLUGVERSPÄTUNGEN</a>
+                                    <a class="dropdown-item"
+                                        href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Technologie.html">UNSERE
+                                        TECHNOLOGIE</a>
+                                    <a class="dropdown-item" href="#">ENTSCHÄDIGUNG SICHERN</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"> <a class="nav-link" href="3-FAQ-FAQ1.html">FAQ</a></li>
+
+                            <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown2"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> MEHR </a>
+                                <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item active" href="3-Mehr-ÜberUns.html">ÜBER UNS</a>
+                                    <a class="dropdown-item" href="3-Mehr-CO2.html">CO2-KOMPENSATION</a>
+                                    <a class="dropdown-item" href="3-Mehr-Rezensionen.html">REZENSIONEN</a>
+                                    <a class="dropdown-item" href="3-Mehr-Presse.html">PRESSE</a>
+                                    <a class="dropdown-item" href="3-Mehr-Partner.html">PARTNER</a>
+                                    <a class="dropdown-item" href="#">JOBS</a>
+                                    <a class="dropdown-item" href="3-Mehr-Kontakt.html">KONTAKT</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"> <a class="nav-link" href="#">LOGIN</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link person" href="#"><img src="img/person.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-holder">
+                    <div class="left-head">
+                        <div class="logo"> <img src="img/logo.png"></div> <a href="#" class="toggle-nav">|||</a>
+                    </div>
+                    <div class="right-head"></div>
+                </div>
+                <div class="nice-nav">
+                    <div class="user-info clear"> <img src="img/logo.png"></div>
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                        <li class="child-menu"> <a href="#"><span>MEIN RECHTSANSPRUCH</span> <span
+                                    class="fa fa-angle-right toggle-right"></span> </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="Rechtsanspruch-Flugausfall.html">BEI FLUGAUSFALL</a></li>
+                                <li><a href="Rechtsanspruch-Flugverspätung.html">BEI FLUGVERSPÄTUNG</a></li>
+                                <li><a href="Rechtsanspruch-Überbuchung.html">BEI ÜBERBUCHUNG DES FLUGES</a></li>
+                                <li><a href="Rechtsanspruch-Anschlussflug.html">BEI VERPASSTEM ANSCHLUSSFLUG</a></li>
+                                <li><a href="Rechtsanspruch-Streik.html">BEI STREIK</a></li>
+                                <li><a href="Rechtsanspruch-Unwetter.html">BEI UNWETTER</a></li>
+                                <li><a href="Rechtsanspruch-Reiserecht.html">FLUGGASTRECHT & REISERECHT</a></li>
+                            </ul>
+                        </li>
+                        <li class="child-menu"> <a href="#"><span>FLUGINFORMATION</span><span
+                                    class="fa fa-angle-right toggle-right"></span> </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="Fluginformationen-Flugausfälle.html">AKTUELLE FLUGAUSFÄLLE</a></li>
+                                <li><a href="Fluginformationen-Flugverspätung.html">AKTUELLE FLUGVERSPÄTUNGEN</a></li>
+                                <li><a href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a></li>
+                                <li><a href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a></li>
+                                <li><a href="Fluginformationen-Technologie.html">UNSERE TECHNOLOGIE</a></li>
+                                <li><a href="#">ENTSCHÄDIGUNG SICHERN</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li class="child-menu">
+                            <a href="#"><span>MEHR</span><span class="fa fa-angle-right toggle-right"></span>
+                            </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="3-Mehr-ÜberUns.html">ÜBER UNS</a></li>
+                                <li><a href="3-Mehr-CO2.html">CO2-KOMPENSATION</a></li>
+                                <li><a href="3-Mehr-Rezensionen.html">REZENSIONEN</a></li>
+                                <li><a href="3-Mehr-Presse.html">PRESSE</a></li>
+                                <li><a href="3-Mehr-Partner.html">PARTNER</a></li>
+                                <li><a href="#">JOBS</a></li>
+                                <li><a href="3-Mehr-Kontakt.html">KONTAKT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="body-part"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end menu -->
+    <div class="sec-01 Mehr-Presse-0">
+        <img class="" src="img/img-mehr/img8.jpg">
+    </div>
+
+    <div>
+        <section class="bg-01 Mehr-Presse-1">
+
+            <div class="segment Mehr-Presse-1-1">
+                <div class="title-card">
+                    <div class="pr-4 py-3" style="padding-left: 30px;">
+                        <div class="d-flex flex-row justify-content-start align-items-center mb-3">
+                            <img alt="" src="./img/img-Mehr/icon6.png" class="title-card-icon" />
+                            <h3 class="text-uppercase title-card-color">Pressemitteilungen & News</h3>
+                        </div>
+                        <p class="mt-1">
+                            Hier haben Sie Einblick in aktuelle Pressemitteilungen, News rund um das Fluggastrecht,
+                            Entschädigungsansprüche sowie die Medienberichterstattung über Fair In The Air.
+                        </p>
+                        <div class="Mehr-Presse-TITR d-flex justify-content-between align-items-center">
+                            <i class="fa fa-chevron-up text-white"></i>
+                            <div class="d-flex align-items-center">
+                                <img alt="" src="./img/img-Mehr/icon7.png" class="title-card-icon" />
+                                <h5 class="mb-0 text-white"> WAS DIE PRESSE DAZU SAGT:</h5>
+                            </div>
+                            <i class="fa fa-chevron-up text-white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="Mehr-Presse-1-2">
+                <div class="segment Ansch-seg-bottom my-md-5">
+                    <div class="row d-flex p-0">
+                        <div class="Mehr-Presse-text-left col-lg-5 table">
+                            <h3 class="text-uppercase title-card-color mb-4">
+                                Pressematerial
+                            </h3>
+                            <p class="text-justify">
+                                Pressevertreter dürfen bereitgestelltes Bildmaterial von Fair In The Air ohne vorherige
+                                Genehmigung herunterladen und für ihre Pressearbeit nutzen. Bei weiteren Fragen,
+                                kontaktieren Sie uns gern per E-Mail unter:
+
+                            </p>
+                            <a>
+                                bla_bla_presse@fairintheair.de
+                            </a>
+
+                        </div>
+
+                        <div class="Mehr-Presse-img-right col-lg-7 px-0">
+                            <div class="row">
+                                <div class="box1 col-sm-6 mb-3">
+                                    <div class="Mehr-Presse-box">
+                                        <img src="img/img-Mehr/icon8.png">
+                                    </div>
+                                </div>
+                                <div class="box2 col-sm-6 mb-3">
+                                    <div class="Mehr-Presse-box">
+                                        <img src="img/img-Mehr/icon8.png">
+                                    </div>
+                                </div>
+                                <div class="box3 col-sm-6 mb-3">
+                                    <div class="Mehr-Presse-box">
+                                        <img src="img/img-Mehr/icon8.png">
+                                    </div>
+                                </div>
+                                <div class="box4 col-sm-6 mb-3">
+                                    <div class="Mehr-Presse-box">
+                                        <img src="img/img-Mehr/icon8.png">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </div>
+
+    <div class="Mehr-Presse-2">
+        <div class="Mehr-Presse-2-titr mb-5">
+            <h3 class="mb-2">Pressemitteilungen</h3>
+            <p class="text-white">Neuigkeiten bei Fair In The Air finden Sie hier.</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="carousel-col col-md-4 mb-5">
+
+                            <img class="d-block w-100" src="img/img-Mehr/img1.png" alt="First slide">
+                            <div class="carousel-text text-justify mt-3 text-white">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum, eius
+                                laboriosam atque corrupti blanditiis repudiandae? Deserunt itaque, velit quas saepe
+                                consectetur culpa? Exercitationem quos, blanditiis fugiat labore saepe deleniti
+                                explicabo ullam provident. Magnam nobis labore tenetur ipsum. Obcaecati illo odio,
+                                aspernatur adipisci voluptatem amet, asperiores ratione iure atque non dolorum fugit
+                                ducimus, dicta vero corporis laboriosam aperiam deserunt recusandae reiciendis?
+                                Voluptate voluptatem
+                            </div>
+                            <div class="carousel-text-bottom d-flex justify-content-center text-white mt-3">
+                                MEHR
+                            </div>
+                        </div>
+                        <div class="carousel-col col-md-4 mb-5">
+
+                            <img class="d-block w-100" src="img/img-Mehr/img1.png" alt="First slide">
+                            <div class="carousel-text text-justify mt-3 text-white">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum, eius
+                                laboriosam atque corrupti blanditiis repudiandae? Deserunt itaque, velit quas saepe
+                                consectetur culpa? Exercitationem quos, blanditiis fugiat labore saepe deleniti
+                                explicabo ullam provident.
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+
+                            <img class="d-block w-100" src="img/img-Mehr/img1.png" alt="First slide">
+                            <div class="carousel-text text-justify mt-3 text-white">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum, eius
+                                laboriosam atque corrupti blanditiis repudiandae? Deserunt itaque, velit quas saepe
+                                consectetur culpa? Exercitationem quos, blanditiis fugiat labore saepe deleniti
+                                explicabo ullam provident. Magnam nobis labore tenetur ipsum. Obcaecati illo odio,
+                                aspernatur adipisci voluptatem amet, asperiores ratione iure atque non dolorum fugit
+                                ducimus
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="carousel-col col-md-4 mb-5">
+                            <img class="d-block w-100" src="img/img-Mehr/img4.jpg" alt="Second slide">
+                            <div class="carousel-text text-justify mt-3 text-white">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum, eius
+                                laboriosam atque corrupti blanditiis repudiandae? Deserunt itaque, velit quas saepe
+                                consectetur culpa?
+                            </div>
+                        </div>
+                        <div class="carousel-col col-md-4 mb-5">
+                            <img class="d-block w-100" src="img/img-Mehr/img4.jpg" alt="Second slide">
+                            <div class="carousel-text text-justify mt-3 text-white">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum, eius
+                                laboriosam atque corrupti blanditiis repudiandae? Deserunt itaque, velit quas saepe
+                                consectetur culpa? Exercitationem quos, blanditiis fugiat labore saepe deleniti
+                                explicabo ullam provident. Magnam nobis labore tenetur ipsum. Obcaecati illo odio,
+                                aspernatur adipisci voluptatem amet, asperiores ratione iure atque non dolorum fugit
+                                ducimus, dicta vero
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <img class="d-block w-100" src="img/img-Mehr/img4.jpg" alt="Second slide">
+                            <div class="carousel-text text-justify mt-3 text-white">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate harum, eius
+                                laboriosam atque
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <!-- <span class="sr-only">Previous</span> -->
+                <i class="fas fa-chevron-left " aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+               <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <!-- <span class="sr-only">Next</span> -->
+                <i class="fas fa-chevron-right " aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container pt-5 text-white">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="footer-contact d-flex flex-column">
+                        <div class="footer-logofair"> <img src="img/logo-fair.png" class="logofair"></div>
+                        <div class="footer-address d-flex flex-column mt-2">
+                            <p>FAIR IN THE AIR GmbH</p>
+                            <p>Musterstraße 41</p>
+                            <p>80333 Berlin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="official d-flex flex-column">
+                        <div class="title">
+                            <h2>OFFIZIELLES</h2>
+                        </div>
+                        <div class="official-section d-flex flex-column mt-2"> <a href="#">IMPRESSUM</a> <a
+                                href="#">DATENSCHUTZ</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="socilal d-flex flex-column mt-3 mt-md-0">
+                        <div class="title">
+                            <h2>socilal media</h2>
+                        </div>
+                        <div class="social-networks d-flex mt-2">
+                            <div class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                            <div class="twitter ml-3"> <a href="#"><i class="fab fa-twitter"></i></a></div>
+                            <div class="instagram ml-3"> <a href="#"><i class="fab fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="advisor d-flex flex-column mt-3 mt-md-0">
+                        <div class="title">
+                            <h2>KUNDENBERATUNG</h2>
+                        </div>
+                        <div class="meta d-flex align-items-center mt-2">
+                            <div class="bg-white tell py-1"><i class="fas fa-phone fa-flip-horizontal pl-2 mx-2"></i>
+                            </div> <span class="bg-white pr-2 py-1">+49 800 897 8543</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="mt-5"> <img src="img/p9.png" alt=""></div>
+        </div>
+    </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src='js/slick.min.js'></script>
+    <script src="js/timelineslider.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

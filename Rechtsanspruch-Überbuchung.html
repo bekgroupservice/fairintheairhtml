@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Überbuchung</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+    <!-- start menu -->
+    <div class="container-fluid">
+
+        <div class="menu-holder">
+
+            <div class="container-fluid menu">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-menu"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"> <a class="nav-link" href="#">HOME
+                                    <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                            <li class="nav-item dropdown sub-nav">
+                                <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">MEIN
+                                    RECHTSANSPRUCH</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" role="button">
+                                    <a class="dropdown-item" href="Rechtsanspruch-Flugausfall.html">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object6.png" alt="">
+                                            <span class="text-center">BEI FLUGAUSFALL</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Flugverspätung.html">
+                                        <img class="insight" src="img/subnav/Layer-53.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object5.png" alt="">
+                                            <span class="text-center">BEI FLUGVERSPÄTUNG</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Überbuchung.html">
+                                        <img class="insight" src="img/subnav/Layer-59.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object4.png" alt="">
+                                            <span class="text-center">BEI ÜBERBUCHUNG DES FLUGES</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Anschlussflug.html">
+                                        <img class="insight" src="img/subnav/Layer-60.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img class="m-b" src="img/subnav/Vector-Smart-Object3.png" alt="">
+                                            <span class="text-center">BEI VERPASSTEM ANSCHLUSSFLUG</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Streik.html">
+                                        <img class="insight" src="img/subnav/Layer-61.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object2.png" alt="">
+                                            <span class="text-center">BEI STREIK</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Unwetter.html">
+                                        <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                            <span class="text-center">BEI UNWETTER</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Reiserecht.html">
+                                        <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                            <span class="text-center">FLUGGASTRECHT & REISERECHT</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown1"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> FLUGINFORMATION </a>
+                                <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item active" href="Fluginformationen-Flugausfälle.html">AKTUELLE
+                                        FLUGAUSFÄLLE</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Flugverspätung.html">AKTUELLE
+                                        FLUGVERSPÄTUNGEN</a>
+                                    <a class="dropdown-item"
+                                        href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Technologie.html">UNSERE
+                                        TECHNOLOGIE</a>
+                                    <a class="dropdown-item" href="#">ENTSCHÄDIGUNG SICHERN</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"> <a class="nav-link" href="#">FAQ</a></li>
+
+                            <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown2"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> MEHR </a>
+                                <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item active" href="#">ÜBER UNS</a>
+                                    <a class="dropdown-item" href="#">CO2-KOMPENSATION</a>
+                                    <a class="dropdown-item" href="#">REZENSIONEN</a>
+                                    <a class="dropdown-item" href="#">PRESSE</a>
+                                    <a class="dropdown-item" href="#">PARTNER</a>
+                                    <a class="dropdown-item" href="#">JOBS</a>
+                                    <a class="dropdown-item" href="#">KONTAKT</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"> <a class="nav-link" href="#">LOGIN</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link person" href="#"><img src="img/person.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-holder">
+                    <div class="left-head">
+                        <div class="logo"> <img src="img/logo.png"></div> <a href="#" class="toggle-nav">|||</a>
+                    </div>
+                    <div class="right-head"></div>
+                </div>
+                <div class="nice-nav">
+                    <div class="user-info clear"> <img src="img/logo.png"></div>
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                        <li class="child-menu"> <a href="#"><span>MEIN RECHTSANSPRUCH</span> <span
+                                    class="fa fa-angle-right toggle-right"></span> </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="Rechtsanspruch-Flugausfall.html">BEI FLUGAUSFALL</a></li>
+                                <li><a href="Rechtsanspruch-Flugverspätung.html">BEI FLUGVERSPÄTUNG</a></li>
+                                <li><a href="Rechtsanspruch-Überbuchung.html">BEI ÜBERBUCHUNG DES FLUGES</a></li>
+                                <li><a href="Rechtsanspruch-Anschlussflug.html">BEI VERPASSTEM ANSCHLUSSFLUG</a></li>
+                                <li><a href="Rechtsanspruch-Streik.html">BEI STREIK</a></li>
+                                <li><a href="Rechtsanspruch-Unwetter.html">BEI UNWETTER</a></li>
+                                <li><a href="Rechtsanspruch-Reiserecht.html">FLUGGASTRECHT & REISERECHT</a></li>
+                            </ul>
+                        </li>
+                        <li class="child-menu"> <a href="#"><span>FLUGINFORMATION</span><span
+                                    class="fa fa-angle-right toggle-right"></span> </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="Fluginformationen-Flugausfälle.html">AKTUELLE FLUGAUSFÄLLE</a></li>
+                                <li><a href="Fluginformationen-Flugverspätung.html">AKTUELLE FLUGVERSPÄTUNGEN</a></li>
+                                <li><a href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a></li>
+                                <li><a href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a></li>
+                                <li><a href="Fluginformationen-Technologie.html">UNSERE TECHNOLOGIE</a></li>
+                                <li><a href="#">ENTSCHÄDIGUNG SICHERN</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li class="child-menu">
+                            <a href="#"><span>MEHR</span><span class="fa fa-angle-right toggle-right"></span>
+                            </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="#">ÜBER UNS</a></li>
+                                <li><a href="#">CO2-KOMPENSATION</a></li>
+                                <li><a href="#">REZENSIONEN</a></li>
+                                <li><a href="#">PRESSE</a></li>
+                                <li><a href="#">PARTNER</a></li>
+                                <li><a href="#">JOBS</a></li>
+                                <li><a href="#">KONTAKT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="body-part"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end menu -->
+    <section class="sec-01" id="uberbuchung-sec-01">
+        <!-- <img src="img/img38.jpg" alt=""> -->
+    </section>
+
+
+
+    <section class="sec-02 py-5" id="uberbuchung-segmentC">
+
+        <div class="segment" id="uberbuchung-title-card">
+            <div class="title-card">
+                <div class="p-4">
+                    <div class="d-flex flex-row justify-content-start align-items-center">
+                        <img alt="" src="./img/logo-030.png" />
+                        <h3 class="text-uppercase">
+                            ENTSCHADIGUNGSANSPRUCH BEI UBERBUCHUNG
+                        </h3>
+                    </div>
+                    <p class="mt-3">
+                        Sollte der fir Sie gebuchte Flug von der Fluggesellschaft Uberbucht (doppelt gebucht) worden
+                        sein, sodass die Airline
+                        Sie nicht wie vorgesehen beférdern kann, haben sie Anspruch auf bis zu 600,00 Euro
+                        Entschadigungszahlung. Das
+                        Fluggastrecht der EU sieht zudem vor, dass Sie bei Uberbuchung Ihres Fluges einen Anspruch auf
+                        Verpflegung am Airport
+                        haben. Folgende Erfordernisse mussen gegeben sein, damit das EU-Fluggastrecht greift:
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="segmentC">
+
+            <!-- <div class="box-100"></div> -->
+
+            <div class="px-4">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-uppercase text-grey mb-3 text-left">
+                            MEINE RECHTE BEI UBERBUCHUNG DES FLUGES:
+                        </h3>
+                        <ul>
+                            <li>
+                                Anspruch auf Ersatzflug
+                            </li>
+                            <li>
+                                Anspruch auf Erstattung des Ticketpreises
+                            </li>
+                            <li>
+                                Rechtsanspruch auf eine Entschadigung bis zu 600 Euro
+                            </li>
+                            <li>
+                                Versorgungsleistungen durch die Fluggesellschaft
+                                (Essen, Getranke, Méglichkeit zum Telefonieren & zum E-Mailen)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="text-uppercase text-grey mb-3">
+                            WIE GEHE ICH BEI EINEM FLUGAUSFALL VOR?
+                        </h3>
+                        <ul>
+                            <li>
+                                Sie sollten sich den Grund der Uberbuchung in jedem Fall schriftlich von der Airline
+                                bestatigen lassen!
+                            </li>
+                            <li>
+                                Bewahren Sie alle Belege eventueller Ausgaben sowie erhaltene Gutscheine gut auf!
+                            </li>
+                            <li>
+                                Bestehen Sie auf Ihr Fluggastrecht auf diverse Versorgungsleistungen am Airport!
+                            </li>
+                            <li>
+                                Prifen Sie mittels unseres Entschadigungsrechners Ihre Anspriche!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid statistik position-relative" id="uberbuchung-statistik">
+        <div class="btn3">
+            <div class="anspruch_prufen">
+                <div class="input-group flex-nowrap btn-1">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping1">
+                            <i class="fas fa-search fa-flip-horizontal"></i>
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Flugnummer" aria-label="Flugnummer"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group flex-nowrap btn-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping2">
+                            <i class="far fa-calendar-check"></i>
+                        </span>
+                    </div>
+                    <input type="seaech" class="form-control" placeholder="Datum" aria-label="Datum"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <button type="button" class="d-flex justify-content-center btn btn-light btn-3 ">
+                    <i class="fab fa-telegram-plane"></i> ANSPRUCH PRÜFEN
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-silver">
+        <div class="segment">
+            <div class="px-4">
+                <h3 class="text-uppercase title-dark py-3">
+                    NICHTBEFORDERUNG AUFGRUND VON UBERBUCHUNG OHNE MEIN EINVERSTANDNIS?
+                </h3>
+                <p class="text-grey">
+                    In der Welt der Flugdkonomie ist es leider eine Ubliche Masche, dass Fliige Uberbucht werden. Dies
+                    bedeutet in der Tat, dass
+                    Fluggesellschaften mitunter mehr Flugtickets verkaufen, als Sitzplatze zur Verfugung stehen. Die
+                    Airlines spekulieren
+                    hierbei darauf, dass einzelne Flugpassagiere ihren Flug verpassen oder ihn aus anderen Grtinden
+                    nicht antreten konnen.
+                </p>
+                <p class="text-grey">
+                    Wenn nun aber entgegen der Erwartungen der Airline tatsachlich alle Passagiere ihren Flug
+                    wahrnehmen, ist die
+                    Fluggesellschaft dazu gezwungen, freiwillige Kunden zu finden, die eine Umbuchung auf eine andere
+                    Maschine akzeptieren.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-07C sec-btn" id="uberbuchung-sec-07C">
+        <!-- <img src="img/img32.jpg" alt=""> -->
+        <div class="container pt-5">
+            <div class="info-box top col-12 col-xl-7 offset-xl-5 mb-5 p-4">
+                <h3 class="text-white text-uppercase mb-3 f-20">
+                    UNGLAUBLICH ABER WAHR
+                </h3>
+                <p>
+                    Findet die Airline nicht ausreichend freiwillige Fluggaste, die mit einer Alternativbeférderung
+                    einverstanden sind, kommt es
+                    oftmals dazu, dass Passagiere gegen ihren Willen nicht beférdert werden.
+                </p>
+                <p>
+                    Eine andere typische und fur die Kunden meist unangenehme Unart ist es, dass einzelne
+                    Fluggesellschaften auf bestimmten
+                    Strecken kleinere Maschinen fliegen lassen, wenn sie im Vorhinein nicht ausreichend Tickets
+                    verkaufen konnten. Hierbei
+                    spekuliert die Fluggesellschaft naturlich darauf, Kosten fir teures Kerosin einzusparen. Auch hier
+                    kommt es in der Folge
+                    mitunter zu Uberbuchungen und daraus resultierender Nichtbeférderung ohne das Einverstandnis des
+                    Kunden.
+                </p>
+                <p>
+                    Flugreisende, die gegen ihren Willen nicht beférdert werden, haben gemaB EUFluggastrechteverordnung
+                    einen Rechtsanspruch auf
+                    Entschadigungszahlung. Die ndétigeVoraussetzung hierfir ist allerdings, dass der Fluggast sich
+                    punktlich eingecheckt hat und
+                    alle weiteren Ublichen Formalien (giltiges Ticket, giltiger Reisepass, Sicherheitscheck etc.)
+                    unbeanstandet blieben.
+                </p>
+                <p>
+                    Nach geltender EU-Fluggastrechteverordnung haben Fluggaste bei Umbuchungen einen Anspruch auf eine
+                    Entschadigungszahlung.
+                    Fair In The Air kann im Normalfall einen Entschadigungsanspruch von 250 bis 600 Euro fiir Sie
+                    durchsetzen! Die
+                    Entschadigungssumme ist nicht abhangig vom Ticketpreis, da es sich hierbei nicht um eine
+                    Flugpreiserstattung, sondern um
+                    eine pauschale Entschadigungszahlung handelt, deren Hohe gesetzlich geregelt ist.
+                </p>
+                <p>
+                    Die genaue Hohe des Entschadigungsbetrags richtet sich nach der Distanz der jeweiligen Flugstrecke.
+                    Die
+                    EU-Fluggastrechteverordnung bezieht sich auf alle Fluge, die in der EU starten oder landen. Die
+                    entsprechende Airline muss
+                    ihren Sitz in der EU haben, wenn nur der Zielflughafen in der EU liegt.
+                </p>
+                <p>
+                    Fair In The Air setzt Ihre Anspriche bis zu drei Jahre rickwirkend durch. Nutzen Sie unsere
+                    Entschadigungssoftware, um zu
+                    prifen, wie hoch Ihre voraussichtliche Entschadigungspauschale ausfallt!
+                </p>
+
+                <div class="box-25"></div>
+
+                <div class="container-fluid statistik position-relative" id="statistik-btn">
+                    <div class="btn3">
+                        <div class="anspruch_prufen">
+                            <div class="input-group flex-nowrap btn-1">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="addon-wrapping1">
+                                        <i class="fas fa-search fa-flip-horizontal"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Flugnummer" aria-label="Flugnummer"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                            <div class="input-group flex-nowrap btn-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="addon-wrapping2">
+                                        <i class="far fa-calendar-check"></i>
+                                    </span>
+                                </div>
+                                <input type="seaech" class="form-control" placeholder="Datum" aria-label="Datum"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                            <button type="button" class="d-flex justify-content-around btn btn-light btn-3 ">
+                                <i class="fab fa-telegram-plane"></i> ANSPRUCH PRÜFEN
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="sec-14C pb-5 sec-btn" id="uberbuchung-sec-14C">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="info-box2 footer">
+                        <h3 class="text-white text-uppercase py-3 px-4 mt-0">
+                            UBERSICHT DER ENTSCHADIGUNGSSUMMEN NACH FLUGSTRECKE:
+                        </h3>
+                        <div class="bottom-box">
+                            <div class="row align-items-center py-3 px-5">
+                                <span class="text-white col-md-6">
+                                    <strong>KURZSTRECKE:</strong> FLUGSTRECKENDISTANZ BIS 1500 KM
+                                </span>
+                                <span class="col-md-1 text-center pl-5">
+                                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                                </span>
+                                <span class="text-white text-right col-md-5">
+                                    ENTSCHADIGUNGSSUMME: <strong>250,00 EURO</strong>
+                                </span>
+                            </div>
+
+                            <div class="row align-items-center py-3 px-5">
+                                <span class="text-white col-md-6">
+                                    <strong> MITTELSTRECKE:</strong> FLUGSTRECKENDISTANZ BIS 3500 KM
+                                </span>
+                                <span class="col-md-1 text-center pl-5">
+                                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                                </span>
+                                <span class="text-white text-right col-md-5">
+                                    ENTSCHADIGUNGSSUMME: <strong>400,00 EURO</strong>
+                                </span>
+                            </div>
+
+                            <div class="row align-items-center py-3 px-5">
+                                <span class="text-white col-md-6">
+                                    <strong>LANGSTRECKE:</strong> FLUGSTRECKENDISTANZ UBER 3500 KM
+                                </span>
+                                <span class="col-md-1 text-center pl-5">
+                                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                                </span>
+                                <span class="text-white text-right col-md-5">
+                                    ENTSCHADIGUNGSSUMME: <strong>600,00 EURO</strong>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class="col-12 col-xl-6">
+
+                    <div class="left">
+
+                        <h3 class="text-uppercase title-dark mb-3">
+                            RECHTZEITIGES EINCHECKEN ALS VORAUSSETZUNG
+                        </h3>
+                        <p class="text-grey">
+                            Um bei Nichtbeférderung gegen Ihren Willen eine Entschadigung zu erhalten, mussen Sie sich
+                            rechtzeitig eingecheckt
+                            haben. Auch wenn Ihnen im Vorhinein durch die Airline mitgeteilt wurde, dass der Flug
+                            Uberbucht ist und Sie daher nicht
+                            beférdert werden kénnen, sollten Sie sicherheitshalber trotzdem den Weg zum Flughafen auf
+                            sich nehmen, um dort
+                            einzuchecken. Oftmals werden die Fluge namlich kurzfristig umgebucht, sodass es ratsam ist,
+                            sich nicht allzu weit
+                            entfernt vom Abflugbereich aufzuhalten, damit Ihnen aktuelle Informationen nicht entgehen.
+                        </p>
+                        <h3 class="text-uppercase title-dark mb-3">
+                            UMBUCHUNG MEINES FLUGES
+                        </h3>
+                        <p class="text-grey">
+                            Flugumbuchungen kommen in den meisten Fallen eher bei Pauschalreisen vor. Haufig andert sich
+                            die Abflugzeit oder die
+                            Fluggaste werden auf andere Maschinen umgebucht. Wenn Sie aus solchen Grunden verspatet am
+                            Zielflughafen ankommen
+                            sollten oder Ihr Flug erheblich friiher startet als vorgesehen, haben Sie ebenfalls vollen
+                            Rechtsanspruch auf
+                            Entschadigungsleistungen.
+                        </p>
+                        <h3 class="text-uppercase title-dark mb-3">
+                            WIE ERHALTE ICH MEINE ENTSCHADIGUNGSZAHLUNG BEI UBERBUCHUNG?
+                        </h3>
+                        <p class="text-grey">
+                            Sie kénnen Ihre Entschadigung selbst bei der Fluggesellschaft einfordern. Allerdings ist
+                            dies als Privatperson mitunter
+                            ein schwieriges Unterfangen. Ohne die nétige Rechtsexpertise und ausreichend Zeit, verlauft
+                            der Versuch einer
+                            Durchsetzung Ihrer Entschadigungspauschale meist im sprichwortlichen Sande. Gerne hilft Fair
+                            In The Air Ihnen dabei, die
+                            Entschadigung erfolgreich einzufordern. Geben Sie dazu einfach Ihre Flugdaten in unseren
+                            Online-Entschadigungsrechner
+                            ein. Dieser priift binnen weniger Minuten alle relevanten Daten und analysiert fur Sie die
+                            Anwendungsmodglichkeit der
+                            Fluggastrechteverordnung in Ihrem speziellen Fall. Diese Ersteinschatzung funktioniert nicht
+                            nur unkompliziert und
+                            schnell, sondern ist selbstverstandlich auch véllig kostenfrei fur Sie. Probieren Sie es
+                            gleich hier aus!
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="col-12 col-xl-6">
+
+
+                    <div class="right">
+                        <div class="img">
+                            <img src="./img/img31.jpg" alt="" class="img-fit" />
+                        </div>
+
+                        <div class="container-fluid statistik position-relative">
+                            <div class="btn3">
+                                <div class="anspruch_prufen">
+                                    <div class="input-group flex-nowrap btn-1">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="addon-wrapping1">
+                                                <i class="fas fa-search fa-flip-horizontal"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Flugnummer"
+                                            aria-label="Flugnummer" aria-describedby="addon-wrapping">
+                                    </div>
+                                    <div class="input-group flex-nowrap btn-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="addon-wrapping2">
+                                                <i class="far fa-calendar-check"></i>
+                                            </span>
+                                        </div>
+                                        <input type="seaech" class="form-control" placeholder="Datum" aria-label="Datum"
+                                            aria-describedby="addon-wrapping">
+                                    </div>
+                                    <button type="button" class="d-flex justify-content-around btn btn-light btn-3 ">
+                                        <i class="fab fa-telegram-plane"></i> ANSPRUCH PRÜFEN
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="resp-01">
+                <p class="title-dark">
+                    Zeigt Ihnen unsere Software an, dass Sie aufgrund von Uberbuchung Ihres Fluges einen Anspruch auf
+                    Entschadigung haben, so
+                    beauftragen Sie uns ganz einfach online mit der Durchsetzung Ihres Rechts! Fair In The Air arbeitet
+                    zusammen mit einem
+                    Expertenteam aus Servicemitarbeitern und Rechtsanwdalten an der schnellstméglichen Durchsetzung
+                    Ihrer Fluggastrechte —
+                    zUgig, Kompetent und fair!
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="sec-10C">
+        <div class="d-flex flex-wrap">
+            <div class="image">
+                <img alt="" src="./img/img30.jpg" class="img-fit">
+            </div>
+            <div class="content">
+                <div class="text1">
+                    <h3 class="text-uppercase my-3">
+                        WARUM IST ES ALS PRIVATPERSON SO AUFWENDIG SEINEN ANSPRUCH DURCHZUSETZEN?
+                    </h3>
+                    <p>
+                        Oftmals ignorieren die Fluggesellschaften die telefonische oder schriftliche Kontaktaufnahme
+                        ihrer geschadigten Kunden.
+                        Sie reagieren in vielen Fallen mit standardisierten Antwortschreiben. Zumeist in der Hoffnung,
+                        durch diese spezielle Art
+                        der ‘biirokratisierten Reaktion' die Anspruchssteller abschrecken zu kénnen.
+                    </p>
+                    <p>
+                        Eine weitere und oft angewendete Masche ist es, zu versuchen die Fluggaste mit giinstigen Essens
+                        und Getrankegutscheinen
+                        zu beschwichtigen und ihnen zu suggerieren, dass keine weiteren Entschadigungsleistungen
+                        geleistet werden k6nnen.
+                    </p>
+                    <p>
+                        Viele Fluggesellschaften nutzen so gesehen also die Unwissenheit ihrer Kundschaft ziemlich aus.
+                        Ohne die erforderliche
+                        Rechtsexpertise kommen die Kunden der Airlines somit in den meisten Fallen nicht wirklich
+                        weiter. Fair In The Air sind
+                        alle typischen Beschwichtigungsversuche, gangigen Ausreden und mutmaBlich gestreuten
+                        Fehlinformationen seitens der
+                        Fluggesellschaften sehr gut bekannt. Wir lassen uns weder austricksen noch an der Nase
+                        herumfihren. Wir sorgen zusammen
+                        mit unseren Rechtsexperten dafiir, dass Ihr Fluggastrecht erfolgreich uns schnellstméglich
+                        durchgesetzt wird!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-10C">
+        <div class="d-flex flex-wrap reverse">
+            <div class="content content-left">
+                <div class="text2">
+                    <h3 class="text-uppercase my-3">
+                        MEIN RECHT BEI LANGEN WARTEZEITEN AM AIRPORT?
+                    </h3>
+                    <p>
+                        Bei Uberbuchung Ihres Fluges haben Sie Anspruch auf Versorgungsleistungen durch die Airline.
+                        Diese mussen Ihnen sofortig
+                        gewahrt werden. Die Versorgung am Flughafen umfasst Mahlzeiten, Snacks, Getranke, Telefonate und
+                        die Méglichkeit zu
+                        faxen oder E-Mails zu versenden. Nehmen Sie diese Leistungen ruhig in Anspruch! Ihre
+                        Entschadigungszahlung erhalten Sie
+                        trotzdem.
+                    </p>
+                </div>
+            </div>
+            <div class="image">
+                <img alt="" src="./img/img29.jpg" class="img-fit">
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-15C">
+        <div class="segment bg-dark-1">
+
+            <div class="pt-5 mb-3 px-4">
+                <h3 class="text-uppercase text-white mb-3">
+                    ABFLUG AUFGRUND VON UBERBUCHUNG ERST AM NACHSTEN TAG
+                </h3>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-white" style="text-align: justify;">
+                            Sollten Sie aufgrund einer Uberbuchung Ihres Fluges erst am darauffolgenden Tag einen
+                            Ersatzflug erhalten, steht
+                            Ihnen rechtlich eine Ubernachtung in einem Hotel in der Nahe des Flughafens zu. Auch die
+                            Hin- und Ruckfahrt zum
+                            Hotel muss von der Fluggesellschaft finanziell Ubernommen werden. Wenden Sie sich in diesen
+                            Fallen direkt an die
+                            entsprechende Fluggesellschaft.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img src="./img/img28.jpg" alt="" class="img-fit" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer d-flex justify-content-start align-items-center">
+                <div class="stamp">TIPP</div>
+                <h3 class="text-white"><strong style="font-weight: bold;">TIPP:</strong> Lassen, Sie sich die
+                    Zusicherungen der Airline schriftlich bestatigen!</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sec-16C" style="background-color: #f3f1f2;">
+        <div class="segment px-4 py-5">
+            <div class="row">
+                <div class="col-md-3 pr-0">
+                    <h3 class="text-uppercase title-dark mb-3">
+                        ERSTATTUNG DES FLUGTICKETPREISES ODER ALTERNATIVE BEFORDERUNG
+                    </h3>
+                    <p class="title-dark text-justify">
+                        Wenn Ihnen aufgrund einer Uberbuchung das Mitfliegen gegen Ihren Willen verweigert wird,kénnen
+                        Sie sich entscheiden, ob
+                        Sie einen Ersatztransport in Anspruch nehmen méochten oder ob Sie sich den Preis fur das
+                        Flugticket vollstandig
+                        zurtickerstatten lassen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="box-50" style="background-color: #f3f1f2;"></div>
+    <div class="box-50" style="background-color: #f3f1f2;"></div>
+
+    <footer>
+        <div class="container pt-5 text-white">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="footer-contact d-flex flex-column">
+                        <div class="footer-logofair"> <img src="img/logo-fair.png" class="logofair"></div>
+                        <div class="footer-address d-flex flex-column mt-2">
+                            <p>FAIR IN THE AIR GmbH</p>
+                            <p>Musterstraße 41</p>
+                            <p>80333 Berlin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="official d-flex flex-column">
+                        <div class="title">
+                            <h2>OFFIZIELLES</h2>
+                        </div>
+                        <div class="official-section d-flex flex-column mt-2"> <a href="#">IMPRESSUM</a> <a
+                                href="#">DATENSCHUTZ</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="socilal d-flex flex-column mt-3 mt-md-0">
+                        <div class="title">
+                            <h2>socilal media</h2>
+                        </div>
+                        <div class="social-networks d-flex mt-2">
+                            <div class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                            <div class="twitter ml-3"> <a href="#"><i class="fab fa-twitter"></i></a></div>
+                            <div class="instagram ml-3"> <a href="#"><i class="fab fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="advisor d-flex flex-column mt-3 mt-md-0">
+                        <div class="title">
+                            <h2>KUNDENBERATUNG</h2>
+                        </div>
+                        <div class="meta d-flex align-items-center mt-2">
+                            <div class="bg-white tell py-1"><i class="fas fa-phone fa-flip-horizontal pl-2 mx-2"></i>
+                            </div> <span class="bg-white pr-2 py-1">+49 800 897 8543</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="footer-bottom--img mt-5"> <img src="img/p9.png" alt=""></div>
+        </div>
+    </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src='js/slick.min.js'></script>
+    <script src="js/timelineslider.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Unwetter</title>
+   <!-- Main CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+   <!-- start menu -->
+   <div class="container-fluid">
+      <div class="menu-holder">
+         <div class="container-fluid menu">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+               <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-menu"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <ul class="navbar-nav">
+                     <li class="nav-item"> <a class="nav-link" href="#">HOME
+                           <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item"> <a class="nav-link" href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                     <li class="nav-item dropdown sub-nav">
+                        <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">MEIN RECHTSANSPRUCH</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" role="button">
+                           <a class="dropdown-item" href="Rechtsanspruch-Flugausfall.html">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img src="img/subnav/Vector-Smart-Object6.png" alt="">
+                                 <span class="text-center">BEI FLUGAUSFALL</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="Rechtsanspruch-Flugverspätung.html">
+                              <img class="insight" src="img/subnav/Layer-53.png" alt="">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img src="img/subnav/Vector-Smart-Object5.png" alt="">
+                                 <span class="text-center">BEI FLUGVERSPÄTUNG</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="Rechtsanspruch-Überbuchung.html">
+                              <img class="insight" src="img/subnav/Layer-59.png" alt="">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img src="img/subnav/Vector-Smart-Object4.png" alt="">
+                                 <span class="text-center">BEI ÜBERBUCHUNG DES FLUGES</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="Rechtsanspruch-Anschlussflug.html">
+                              <img class="insight" src="img/subnav/Layer-60.png" alt="">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img class="m-b" src="img/subnav/Vector-Smart-Object3.png" alt="">
+                                 <span class="text-center">BEI VERPASSTEM ANSCHLUSSFLUG</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="Rechtsanspruch-Streik.html">
+                              <img class="insight" src="img/subnav/Layer-61.png" alt="">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img src="img/subnav/Vector-Smart-Object2.png" alt="">
+                                 <span class="text-center">BEI STREIK</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="Rechtsanspruch-Unwetter.html">
+                              <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                 <span class="text-center">BEI UNWETTER</span>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="Rechtsanspruch-Reiserecht.html">
+                              <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                              <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                 <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                 <span class="text-center">FLUGGASTRECHT & REISERECHT</span>
+                              </div>
+                           </a>
+                        </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown1" role="button" aria-haspopup="true"
+                           aria-expanded="false"> FLUGINFORMATION </a>
+                        <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item active" href="Fluginformationen-Flugausfälle.html">AKTUELLE
+                              FLUGAUSFÄLLE</a>
+                           <a class="dropdown-item" href="Fluginformationen-Flugverspätung.html">AKTUELLE
+                              FLUGVERSPÄTUNGEN</a>
+                           <a class="dropdown-item"
+                              href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a>
+                           <a class="dropdown-item" href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a>
+                           <a class="dropdown-item" href="Fluginformationen-Technologie.html">UNSERE TECHNOLOGIE</a>
+                           <a class="dropdown-item" href="#">ENTSCHÄDIGUNG SICHERN</a>
+                        </div>
+                     </li>
+                     <li class="nav-item"> <a class="nav-link" href="#">FAQ</a></li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown2" role="button" aria-haspopup="true"
+                           aria-expanded="false"> MEHR </a>
+                        <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item active" href="#">ÜBER UNS</a>
+                           <a class="dropdown-item" href="#">CO2-KOMPENSATION</a>
+                           <a class="dropdown-item" href="#">REZENSIONEN</a>
+                           <a class="dropdown-item" href="#">PRESSE</a>
+                           <a class="dropdown-item" href="#">PARTNER</a>
+                           <a class="dropdown-item" href="#">JOBS</a>
+                           <a class="dropdown-item" href="#">KONTAKT</a>
+                        </div>
+                     </li>
+                     <li class="nav-item"> <a class="nav-link" href="#">LOGIN</a></li>
+                     <li class="nav-item">
+                        <a class="nav-link person" href="#"><img src="img/person.png"></a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+         <div class="mobile-menu">
+            <div class="menu-holder">
+               <div class="left-head">
+                  <div class="logo"> <img src="img/logo.png"></div>
+                  <a href="#" class="toggle-nav">|||</a>
+               </div>
+               <div class="right-head"></div>
+            </div>
+            <div class="nice-nav">
+               <div class="user-info clear"> <img src="img/logo.png"></div>
+               <div class="clear"></div>
+               <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                  <li class="child-menu">
+                     <a href="#"><span>MEIN RECHTSANSPRUCH</span> <span class="fa fa-angle-right toggle-right"></span>
+                     </a>
+                     <ul class="child-menu-ul">
+                        <li><a href="Rechtsanspruch-Flugausfall.html">BEI FLUGAUSFALL</a></li>
+                        <li><a href="Rechtsanspruch-Flugverspätung.html">BEI FLUGVERSPÄTUNG</a></li>
+                        <li><a href="Rechtsanspruch-Überbuchung.html">BEI ÜBERBUCHUNG DES FLUGES</a></li>
+                        <li><a href="Rechtsanspruch-Anschlussflug.html">BEI VERPASSTEM ANSCHLUSSFLUG</a></li>
+                        <li><a href="Rechtsanspruch-Streik.html">BEI STREIK</a></li>
+                        <li><a href="Rechtsanspruch-Unwetter.html">BEI UNWETTER</a></li>
+                        <li><a href="Rechtsanspruch-Reiserecht.html">FLUGGASTRECHT & REISERECHT</a></li>
+                     </ul>
+                  </li>
+                  <li class="child-menu">
+                     <a href="#"><span>FLUGINFORMATION</span><span class="fa fa-angle-right toggle-right"></span> </a>
+                     <ul class="child-menu-ul">
+                        <li><a href="Fluginformationen-Flugausfälle.html">AKTUELLE FLUGAUSFÄLLE</a></li>
+                        <li><a href="Fluginformationen-Flugverspätung.html">AKTUELLE FLUGVERSPÄTUNGEN</a></li>
+                        <li><a href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a></li>
+                        <li><a href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a></li>
+                        <li><a href="Fluginformationen-Technologie.html">UNSERE TECHNOLOGIE</a></li>
+                        <li><a href="#">ENTSCHÄDIGUNG SICHERN</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">FAQ</a></li>
+                  <li class="child-menu">
+                     <a href="#"><span>MEHR</span><span class="fa fa-angle-right toggle-right"></span>
+                     </a>
+                     <ul class="child-menu-ul">
+                        <li><a href="#">ÜBER UNS</a></li>
+                        <li><a href="#">CO2-KOMPENSATION</a></li>
+                        <li><a href="#">REZENSIONEN</a></li>
+                        <li><a href="#">PRESSE</a></li>
+                        <li><a href="#">PARTNER</a></li>
+                        <li><a href="#">JOBS</a></li>
+                        <li><a href="#">KONTAKT</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">LOGIN</a></li>
+               </ul>
+            </div>
+            <div class="body-part"></div>
+         </div>
+      </div>
+   </div>
+   <!-- end menu -->
+   <section class="sec-01" id="unwetter-sec-01">
+      <!-- <img src="img/img37.jpg" alt=""> -->
+   </section>
+
+   <section class="sec-11D" id="unwetter-sec-11D">
+
+
+      <div class="container">
+         <div class="title-card">
+            <div class="p-4">
+               <div class="d-flex flex-row justify-content-start align-items-center">
+                  <img alt="" src="./img/logo-09.png" />
+                  <h3 class="text-uppercase">
+                     DURCH UNWETTER BEDINGTE FLUGVERSPATUNGEN ODER FLUGAUSFALLE
+                  </h3>
+               </div>
+               <p class="mt-3">
+                  Aufgrund von Unwettern und Schlechtwetterlagen kann es gelegentlich zu Flugausfallen und
+                  Flugverspatungen
+                  kommen. Orkan,
+                  Gewitterfronten, Schneestirme, dichter Nebel oder Sandstiirme sind die haufigsten Griinde fur
+                  Flugverspatungen aufgrund
+                  von Unwetter oder schlechtem Wetter. Verspatet sich aus diesen Griinden ein Flug oder muss sogar
+                  annulliert werden,
+                  stehen den Fluggasten keine Entschadigungsleistungen zu.
+               </p>
+               <p class="mt-3">
+                  Schlechtes Wetter gilt nach Flugrechtsverordnung zu den sogenannten auBergew6hnlichen Umstanden. Dies
+                  sind Umstande, die
+                  Fluggesellschaften nicht beeinflussen k6nnen. Trotzdem mussen seitens der Airlines natirlich zumutbare
+                  MaBnahmen
+                  ergriffen werden, um Verspatungen oder Flugausfalle aufgrund eines Unwetters weitestgehend zu
+                  vermeiden.
+               </p>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="container pb-5">
+         <div class="row px-3">
+            <div class="col-12 col-xl-6">
+               <h3 class="text-uppercase title-dark my-3">
+                  ENTSCHADIGUNGSLEISTUNGEN BEI UNWETTER KONNEN BEI DIESEN VORAUSSETZUNGEN REALISIERT WERDEN:
+               </h3>
+               <ul>
+                  <li>
+                     Andere Airlines haben zur selben Zeit ihre Passagiere planmaBig beférdert.
+                  </li>
+                  <li>
+                     Sie haben Ihren Zielflughafen mit mindestens drei Stunden Verspatung erreicht.
+                  </li>
+                  <li>
+                     Sie haben sich pUnktlich eingescheckt.
+                  </li>
+                  <li>
+                     Der gebuchte Flug liegt nicht weiter als drei Jahre zuriick.
+                  </li>
+                  <li>
+                     Start oder Landung des gebuchten Fluges war fiir ein EU Land vorgesehen. Sollte nur die Landung auf
+                     einem
+                     EUFlughafen
+                     geplant gewesen sein, so muss die Fluggesellschaft auBerdem ihren Firmensitz in der EU haben.
+                  </li>
+               </ul>
+            </div>
+            <div class="col-12 col-xl-6">
+               <h3 class="text-uppercase title-dark my-3">
+                  WIE GEHE ICH VOR, WENN MEIN FLUG WEGEN SCHLECHTEN WETTERS ANNULLIERT WIRD ODER SICH VERSPATET?
+               </h3>
+               <ul>
+                  <li>
+                     Erkundigen Sie sich, ob andere Fluge starten oder landen konnten!
+                  </li>
+                  <li>
+                     Bestehen Sie auf Ihr Fluggastrecht auf Versorgungsleistungen am Airport!
+                  </li>
+                  <li>
+                     Lassen Sie sich den Grund des Flugausfalles oder der Flugverspatung schriftlich durch die
+                     Fluggesellschaft
+                     bestatigen!
+                  </li>
+                  <li>
+                     Bewahren Sie alle Belege eventueller Ausgaben sowie erhaltene Gutscheine gut auf!
+                  </li>
+                  <li>
+                     Priifen Sie mittels unserer Entschadigungssoftware lhre Anspriche auf eine Entschadigungszahlung in
+                     Hohe von bis zu
+                     600,00 Euro!
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="sec-07D" id="unwetter-sec-07D">
+      <div class="container">
+         <div class="row justify-content-md-end pr-md-3">
+            <div class="col-md-8 info-box mb-5 px-4 pt-4 pb-3">
+               <h3 class="text-white text-uppercase mb-3">
+                  WIE WAHRSCHEINLICH IST ES, DASS ICH AUCH BEI UNWETTER FINE ENTSCHADIGUNG BEKOMME?
+               </h3>
+               <p class="text-justify">
+                  <strong>Grundsatzlich gilt:</strong> Fluggaste haben bei Flugausfallen oder gréBeren Verspatungen, die
+                  durch schlechtes
+                  Wetter bzw. Unwetter
+                  bedingt sind, keinen Anspruch auf eine Entschadigung. Unwetterlagen zahlen laut
+                  EU-Fluggastrechteverordnung zu den
+                  sogenannten auBergewohnlichen Umstanden. In Einzelfallen kann Fluggasten aber dennoch eine
+                  Entschadigungspauschale
+                  zugesprochen werden. Entscheidend ist hierfiir, dass Start oder Landung des gebuchten Fluges auf einem
+                  Flughafen der EU
+                  vorgesehen war. War nur die Landung auf einem EU-Flughafen vorgesehen, muss die Fluggesellschaft ihren
+                  Firmensitz auBerdem
+                  in der EU haben.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="sec-13D" id="unwetter-sec-13d">
+      <!-- <div class="box-75 my-5"></div> -->
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="box">
+                  <div class="info-box--title">
+                     <div class="py-3 px-4">
+                        <h3 class="text-white text-uppercase mb-3">
+                           WIE HOCH KANN EINE ENTSCHADIGUNGSZAHLUNG AUSFALLEN, WENN MEIN FLUG AUFGRUND EINES UNWETTERS
+                           NICHT RECHTZEITIG STARTEN
+                           KONNTE ODER ABGESAGT WURDE?
+                        </h3>
+                        <p class="mb-0" style="font-size: 15px;">
+                           Ist Inr Flug mehr als drei Stunden verspatet oder fallt ganzlich aus, so besteht
+                           méglicherweise ein gesetzlich
+                           festgelegter Anspruch auf Entschadigung:
+                        </p>
+                     </div>
+                  </div>
+                  <ul class="list-group">
+                     <li
+                        class="list-group-item d-flex  flex-column flex-md-row justify-content-between align-items-center py-3 px-5">
+                        <span class="text-white col-md-6">
+                           <strong>KURZSTRECKE:</strong> FLUGSTRECKENDISTANZ BIS 1500 KM
+                        </span>
+                        <span class="col-md-1 text-center">
+                           <img src="./img/aro-right-02.png">
+                        </span>
+                        <span class="text-white text-right col-md-5">
+                           ENTSCHADIGUNGSSUMME: <strong>250,00 EURO</strong>
+                        </span>
+                     </li>
+                     <li
+                        class="list-group-item d-flex  flex-column flex-md-row justify-content-between align-items-center py-3 px-5">
+                        <span class="text-white col-md-6">
+                           <strong>MITTELSTRECKE:</strong> FLUGSTRECKENDISTANZ BIS 3500 KM
+                        </span>
+                        <span class="col-md-1 text-center">
+                           <img src="./img/aro-right-02.png">
+                        </span>
+                        <span class="text-white text-right col-md-5">
+                           ENTSCHADIGUNGSSUMME: <strong>400,00 EURO</strong>
+                        </span>
+                     </li>
+                     <li
+                        class="list-group-item d-flex  flex-column flex-md-row justify-content-between align-items-center py-3 px-5">
+                        <span class="text-white col-md-6">
+                           <strong>LANGSTRECKE:</strong> FLUGSTRECKENDISTANZ UBER 3500 KM
+                        </span>
+                        <span class="col-md-1 text-center">
+                           <img src="./img/aro-right-02.png">
+                        </span>
+                        <span class="text-white text-right col-md-5">
+                           ENTSCHADIGUNGSSUMME: <strong>600,00 EURO</strong>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid pt-5">
+         <div class="row px-5 pt-5">
+            <div class="bg">
+               <div class="col-md-8">
+                  <h3 class="title-dark text-uppercase my-3 ml-md-3 pt-5 mt-5">
+                     UNWETTER ALS VERMEINTLICHER GRUND VON FLUGAUSFALLEN
+                  </h3>
+               </div>
+               <div class="w-100"></div>
+               <div class="col-12 col-md-6">
+                  <p class="text-grey p-3 mb-0">
+                     Bei Orkanb6en oder straken Gewittern bleiben die meisten Fluggaste naturlich lieber am Boden und
+                     warten solange bis
+                     sich das Unwetter gelegt hat. Fir die GroBzahl der Reisenden ist es selbstverstandlich und eben
+                     unvermeidbar, dass
+                     es in diesen Kontexten zu Flugverspatungen kommen kann.
+                  </p>
+                  <p class="text-grey p-3">
+                     Leider missbrauchen einige Fluggesellschaften jedoch die vermeintlichen Unwetter und
+                     Schlechtwetterlagen als
+                     Begriindung fiir Flugannullierungen oder Verspatungen, die eigentlich vermeidbar waren. Schlechtes
+                     Wetter wird in
+                     diesem Sinne also in manchen Fallen als Ausrede fur Flugverspatungen vorgebracht. Ein Anzeichen
+                     dafur kann
+                     beispielsweise sein, dass Fluge anderer Fluggesellschaften planmaBig durchgefUhrt werden, wahrend
+                     Ihre Maschine
+                     unterdessen am Boden bleibt. Eine Flughafen- oder Luftraumsperrung scheint vor diesem Hintergrund
+                     unlogisch. Dennoch
+                     muss bewiesen werden, dass Ihr Flug hatte starten kénnen: Fair In The Air hat Zugriff auf ein
+                     groBes Netzt von
+                     Datenbanken mit dem genau nachzuverfolgen ist, welche Flugbewegungen wann und von welchem Airport
+                     stattgefunden
+                     haben. In Kombination mit unserem Expertenteam bildet dies unsere Erfolgsformel bei der
+                     Durchsetzung Ihrer
+                     Entschadigungsanspriche!
+                  </p>
+               </div>
+               <div class="col-12 col-md-6">
+                  <p class="text-grey p-3 mb-0">
+                     Insbesondere in den Wintermonaten kommt es zudem oftmals zu der gangigen Ausrede, dass ein Flug
+                     aufgrund fehlender
+                     Enteisungsméglichkeit nicht wie geplant starten konnte. Ein aufgrund fehlender Enteisungsmittel
+                     annullierter Flug
+                     ist allerdings keineswegs ein auBergewdhnlicher Umstand, auch wenn dies von einzelnen
+                     Fluggesellschaften gern so
+                     verkauft wird. Es gibt mittlerweile einige Gerichtsurteile, die deutlich besagen, dass fur fehlende
+                     Enteisungsmittel
+                     ausschlieBlich die Fluggesellschaften verantwortlich sind. Jede Airline muss ausreichend Mittel zum
+                     Enteisen ihrer
+                     Maschinen vorratig haben und diese so einsetzten, dass der Flugbetrieb planungsgema8 funktionieren
+                     kann.
+                  </p>
+                  <p class="text-grey p-3">
+                     Oftmals fulhren wetterbedingte Verspatungen auch zur Uberschreitung der Dienstzeiten von
+                     Flugzeugbesatzungen,
+                     weshalb Fluge dann nicht starten kénnen. Dieses gilt ebenfalls nicht als auBergewohnlicher Umstand,
+                     sodass
+                     betroffene Kunden vollen Anspruch auf Entschadigungszahlung haben.
+                  </p>
+               </div>
+               <div class="col-md-8 offset-md-2 align-self-end pt-5 mt-5">
+                  <div class="drop-ul p-4">
+                     <div class="drop-title">
+                        <h3 class="text-white mb-3"> UNWETTER ALS VERMEINTLICHER GRUND VON FLUGAUSFALLEN</h3>
+                        <p> Oftmals fulhren wetterbedingte Verspatungen auch zur Uberschreitung der Dienstzeiten von
+                           Flugzeugbesatzungen,
+                           weshalb Fluge dann nicht starten kénnen. Dieses gilt ebenfalls nicht als auBergewohnlicher
+                           Umstand, sodass
+                        </p>
+                     </div>
+                     <ul class="list-group">
+                        <li class="list-group-item active d-flex align-items-center justify-content-between text-white"
+                           data-toggle="collapse" data-target="#drop-ul">
+                           <i class="fa fa-chevron-down"></i>
+                           <span class="small-title">AKTUELLE FLUGVERSPATUNGEN</span>
+                           <i class="fa fa-chevron-down"></i>
+                        </li>
+                        <div class="collapse show" id="drop-ul">
+                           <li class="list-group-item py-3"></li>
+                           <li class="list-group-item py-3"></li>
+                           <li class="list-group-item py-3"></li>
+                           <li class="list-group-item py-3"></li>
+                           <li class="list-group-item py-3"></li>
+                           <li class="list-group-item py-3"></li>
+                           <li class="list-group-item py-3"></li>
+                        </div>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+   <section class="sec-16D" id="unwetter-sec-16D">
+      <div class="container py-5">
+         <div class="row">
+            <div class="col-12 col-lg-6">
+               <div class="left">
+                  <h3 class="text-uppercase title-dark mb-3">
+                     HABE ICH ANSPRUCH AUF ENTSCHADIGUNG?
+                  </h3>
+                  <p class="text-grey text-justify pr-2">
+                     Priifen Sie schnell und unkompliziert Ihren Entschadigungsanspruch! Geben Sie dazu einfach die
+                     entsprechenden Flugdaten
+                     in unseren Rechner ein. Fair In The Air analysiert die Anwendbarkeit der
+                     EU-Fluggastrechteverordnung,
+                     prift ob es sich
+                     um auBergew6ohnliche Umstande handelt oder Ihr Flug tatsachlich hatte starten kénnen und gibt Ihnen
+                     binnen weniger
+                     Augenblicke eine erste Einschatzung. Falls Sie Anspruch auf eine Entschadigungspauschale haben,
+                     beauftragen Sie uns
+                     bitte umgehend damit sich lhres Falles anzunehmen. Sparen Sie sich Zeit und Nerven, denn Fair In
+                     The
+                     Air regelt alles
+                     Weitere fur Sie!
+                  </p>
+               </div>
+            </div>
+            <div class="col-12 col-lg-6">
+               <div class="right">
+                  <div class="img">
+                     <img src="./img/img36.jpg" alt="" class="img-fit" />
+                  </div>
+                  <!-- form -->
+                  <div class="unwetter-box px-0">
+                     <form action="" class="px-0 pt-4 pb-3 bg-white">
+                        <div class="form-row align-items-center">
+                           <div class="col-12 col-md-4">
+                              <div class="input-group mb-2">
+                                 <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="fa fa-search fa-flip-horizontal"></i></div>
+                                 </div>
+                                 <input type="text" class="form-control" id="inlineFormInputGroup"
+                                    placeholder="Flugnummer">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-4">
+                              <div class="input-group mb-2">
+                                 <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="far fa-calendar-check"></i></div>
+                                 </div>
+                                 <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Datum">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-4">
+                              <button class="btn btn-primary btn-block d-flex align-items-center py-2"><i
+                                    class="fa fa-paper-plane mr-3"></i><span class="mx-auto">ANSPRUCH
+                                    PRÜFEN</span></button>
+                           </div>
+                     </form>
+                  </div>
+               </div>
+
+
+            </div>
+         </div>
+      </div>
+      <!-- <div class="box-100"></div> -->
+      </div>
+   </section>
+   <section class="sec-17D d-flex align-items-center" id="unwetter-sec-17D">
+      <!-- <img src="img/img44.jpg"> -->
+      <div class="container">
+
+         <div class="row justify-content-md-end align-items-center">
+
+            <div class="info-box light col-md-9">
+               <h3 class="text-white text-uppercase mb-3 mt-0">
+                  MEINE RECHTE BEI UNWETTERBEDINGTEN <br> WARTEZEITEN AM AIRPORT
+               </h3>
+               <p class="text-justify mb-0">
+                  Egal ob Ihr Flug aufgrund eines sogenannten auBergewohnlichen Umstands oder aus anderen Grinden
+                  ausfallt oder verspatet
+                  abhebt: Die Fluggesellschaften sind dazu verpflichtet Ihnen eine Grundversorgung am Airport zu
+                  stellen. Sollten es im Zuge
+                  Ihrer Flugreise also zu langeren Wartezeiten am Flughafen kommen, haben Sie Anspruch auf kostenfreies
+                  Essen, Getranke und
+                  einige weitere Leistungen. Dies steht Ihnen zu:
+               </p>
+            </div>
+         </div>
+
+
+
+      </div>
+   </section>
+   <section class="sec-04D">
+      <div class="container">
+         <div class="contentA py-4">
+            <div class="px-3 py-4">
+               <div class="row border-bottom-dotted py-4">
+                  <div class="col-12 col-xl-2 p-0">
+                     <h3 class="text-uppercase title-dark">
+                        <strong>KURZSTRECKENFLUG</strong>
+                     </h3>
+                  </div>
+                  <div class="col-md-1 pr-0 pl-5">
+                     <img src="./img/aro-right-02.png" alt="">
+                  </div>
+                  <div class="col-12 col-xl-4">
+                     <p class="text-grey">
+                        <strong>weniger als 1500 Kilometer</strong> Flugstrecke
+                     </p>
+                  </div>
+                  <div class="col-md-1 pr-0">
+                     <img src="./img/aro-right-02.png" alt="">
+                  </div>
+                  <div class="col-12 col-xl-4 pr-0">
+                     <p class="text-grey">
+                        Ab zwei Stunden Wartezeit stehen Ihnen kostenfreie Getranke, Snacks, sowie E-Mails und zwei
+                        Telefonate zu.
+                     </p>
+                  </div>
+               </div>
+               <div class="row border-bottom-dotted py-4">
+                  <div class="col-12 col-xl-2 p-0">
+                     <h3 class="text-uppercase title-dark">
+                        <strong>MITTELSTRECKENFLUG</strong>
+                     </h3>
+                  </div>
+                  <div class="col-md-1 pr-0 pl-5">
+                     <img src="./img/aro-right-02.png" alt="">
+                  </div>
+                  <div class="col-12 col-xl-4">
+                     <p class="text-grey">
+                        <strong>1500 bis 3500 Kilometer</strong> Flugstrecke
+                     </p>
+                  </div>
+                  <div class="col-md-1">
+                     <img src="./img/aro-right-02.png" alt="">
+                  </div>
+                  <div class="col-12 col-xl-4 pr-0">
+                     <p class="text-grey">
+                        Ab drei Stunden Wartezeit stehen Ihnen kostenlose Getranke, Mahlzeiten, zwei Telefonate und das
+                        Versenden von
+                        E-Mails zu.
+                     </p>
+                  </div>
+               </div>
+               <div class="row border-bottom-dotted py-4">
+                  <div class="col-12 col-xl-2 p-0">
+                     <h3 class="text-uppercase title-dark">
+                        <strong>LANGSTRECKENFLUG</strong>
+                     </h3>
+                  </div>
+                  <div class="col-md-1 pr-0 pl-5">
+                     <img src="./img/aro-right-02.png" alt="">
+                  </div>
+                  <div class="col-12 col-xl-4">
+                     <p class="text-grey">
+                        <strong>mehr als 3500 Kilometer</strong> Flugstrecke
+                     </p>
+                  </div>
+                  <div class="col-md-1">
+                     <img src="./img/aro-right-02.png" alt="">
+                  </div>
+                  <div class="col-12 col-xl-4 pr-0">
+                     <p class="text-grey">
+                        Ab vier Stunden Wartezeit haben Sie Anspruch auf kostenlose Versorgung mit Getranken und
+                        Mahlzeiten sowie
+                        Anspruch auf zwei Telefonate und das Versenden von E-Mails.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="container pt-5 text-white">
+         <div class="row">
+            <div class="col-sm-6 col-md-3">
+               <div class="footer-contact d-flex flex-column">
+                  <div class="footer-logofair"> <img src="img/logo-fair.png" class="logofair"></div>
+                  <div class="footer-address d-flex flex-column mt-2">
+                     <p>FAIR IN THE AIR GmbH</p>
+                     <p>Musterstraße 41</p>
+                     <p>80333 Berlin</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+               <div class="official d-flex flex-column">
+                  <div class="title">
+                     <h2>OFFIZIELLES</h2>
+                  </div>
+                  <div class="official-section d-flex flex-column mt-2"> <a href="#">IMPRESSUM</a> <a
+                        href="#">DATENSCHUTZ</a></div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+               <div class="socilal d-flex flex-column mt-3 mt-md-0">
+                  <div class="title">
+                     <h2>socilal media</h2>
+                  </div>
+                  <div class="social-networks d-flex mt-2">
+                     <div class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                     <div class="twitter ml-3"> <a href="#"><i class="fab fa-twitter"></i></a></div>
+                     <div class="instagram ml-3"> <a href="#"><i class="fab fa-instagram"></i></a></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+               <div class="advisor d-flex flex-column mt-3 mt-md-0">
+                  <div class="title">
+                     <h2>KUNDENBERATUNG</h2>
+                  </div>
+                  <div class="meta d-flex align-items-center mt-2">
+                     <div class="bg-white tell py-1"><i class="fas fa-phone fa-flip-horizontal pl-2 mx-2"></i></div>
+                     <span class="bg-white pr-2 py-1">+49 800 897 8543</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="footer-bottom--img mt-5"> <img src="img/p9.png" alt=""></div>
+      </div>
+   </footer>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+   <script src='js/slick.min.js'></script>
+   <script src="js/timelineslider.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/app.js"></script>
+</body>
+
+</html>

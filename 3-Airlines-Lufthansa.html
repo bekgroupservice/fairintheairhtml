@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Airlines-Lufthansa</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" media="all">
+
+    <!-- <link rel="stylesheet" href="css/s1.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/timelineslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+</head>
+
+<body class="style-Flug Airlines">
+
+    <!-- start menu -->
+    <div class="container-fluid">
+
+        <div class="menu-holder">
+
+            <div class="container-fluid menu">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-menu"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"> <a class="nav-link" href="index.html">HOME
+                                    <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                            <li class="nav-item dropdown sub-nav">
+                                <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">MEIN
+                                    RECHTSANSPRUCH</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" role="button">
+                                    <a class="dropdown-item" href="Rechtsanspruch-Flugausfall.html">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object6.png" alt="">
+                                            <span class="text-center">BEI FLUGAUSFALL</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Flugverspätung.html">
+                                        <img class="insight" src="img/subnav/Layer-53.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object5.png" alt="">
+                                            <span class="text-center">BEI FLUGVERSPÄTUNG</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Überbuchung.html">
+                                        <img class="insight" src="img/subnav/Layer-59.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object4.png" alt="">
+                                            <span class="text-center">BEI ÜBERBUCHUNG DES FLUGES</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Anschlussflug.html">
+                                        <img class="insight" src="img/subnav/Layer-60.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img class="m-b" src="img/subnav/Vector-Smart-Object3.png" alt="">
+                                            <span class="text-center">BEI VERPASSTEM ANSCHLUSSFLUG</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Streik.html">
+                                        <img class="insight" src="img/subnav/Layer-61.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object2.png" alt="">
+                                            <span class="text-center">BEI STREIK</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Unwetter.html">
+                                        <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                            <span class="text-center">BEI UNWETTER</span>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="Rechtsanspruch-Reiserecht.html">
+                                        <img class="insight" src="img/subnav/Layer-62.png" alt="">
+                                        <div class="meta d-flex flex-column justify-content-center align-items-center">
+                                            <img src="img/subnav/Vector-Smart-Object.png" alt="">
+                                            <span class="text-center">FLUGGASTRECHT & REISERECHT</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown1"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> FLUGINFORMATION </a>
+                                <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item active" href="Fluginformationen-Flugausfälle.html">AKTUELLE
+                                        FLUGAUSFÄLLE</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Flugverspätung.html">AKTUELLE
+                                        FLUGVERSPÄTUNGEN</a>
+                                    <a class="dropdown-item"
+                                        href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a>
+                                    <a class="dropdown-item" href="Fluginformationen-Technologie.html">UNSERE
+                                        TECHNOLOGIE</a>
+                                    <a class="dropdown-item" href="#">ENTSCHÄDIGUNG SICHERN</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"> <a class="nav-link" href="3-FAQ-FAQ1.html">FAQ</a></li>
+
+                            <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdown2"
+                                    role="button" aria-haspopup="true" aria-expanded="false"> MEHR </a>
+                                <div class="dropdown-menu mehr" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item active" href="3-Mehr-ÜberUns.html">ÜBER UNS</a>
+                                    <a class="dropdown-item" href="3-Mehr-CO2.html">CO2-KOMPENSATION</a>
+                                    <a class="dropdown-item" href="3-Mehr-Rezensionen.html">REZENSIONEN</a>
+                                    <a class="dropdown-item" href="3-Mehr-Presse.html">PRESSE</a>
+                                    <a class="dropdown-item" href="3-Mehr-Partner.html">PARTNER</a>
+                                    <a class="dropdown-item" href="#">JOBS</a>
+                                    <a class="dropdown-item" href="3-Mehr-Kontakt.html">KONTAKT</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"> <a class="nav-link" href="#">LOGIN</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link person" href="#"><img src="img/person.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-holder">
+                    <div class="left-head">
+                        <div class="logo"> <img src="img/logo.png"></div> <a href="#" class="toggle-nav">|||</a>
+                    </div>
+                    <div class="right-head"></div>
+                </div>
+                <div class="nice-nav">
+                    <div class="user-info clear"> <img src="img/logo.png"></div>
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="Rechner-1.html">ANSPRUCH PRÜFUNG</a></li>
+                        <li class="child-menu"> <a href="#"><span>MEIN RECHTSANSPRUCH</span> <span
+                                    class="fa fa-angle-right toggle-right"></span> </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="Rechtsanspruch-Flugausfall.html">BEI FLUGAUSFALL</a></li>
+                                <li><a href="Rechtsanspruch-Flugverspätung.html">BEI FLUGVERSPÄTUNG</a></li>
+                                <li><a href="Rechtsanspruch-Überbuchung.html">BEI ÜBERBUCHUNG DES FLUGES</a></li>
+                                <li><a href="Rechtsanspruch-Anschlussflug.html">BEI VERPASSTEM ANSCHLUSSFLUG</a></li>
+                                <li><a href="Rechtsanspruch-Streik.html">BEI STREIK</a></li>
+                                <li><a href="Rechtsanspruch-Unwetter.html">BEI UNWETTER</a></li>
+                                <li><a href="Rechtsanspruch-Reiserecht.html">FLUGGASTRECHT & REISERECHT</a></li>
+                            </ul>
+                        </li>
+                        <li class="child-menu"> <a href="#"><span>FLUGINFORMATION</span><span
+                                    class="fa fa-angle-right toggle-right"></span> </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="Fluginformationen-Flugausfälle.html">AKTUELLE FLUGAUSFÄLLE</a></li>
+                                <li><a href="Fluginformationen-Flugverspätung.html">AKTUELLE FLUGVERSPÄTUNGEN</a></li>
+                                <li><a href="Fluginformationen-Fluggesellschaften.html">FLUGGESELLSCHAFTEN</a></li>
+                                <li><a href="Fluginformationen-Flughäfen.html">FLUGHÄFEN</a></li>
+                                <li><a href="Fluginformationen-Technologie.html">UNSERE TECHNOLOGIE</a></li>
+                                <li><a href="#">ENTSCHÄDIGUNG SICHERN</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li class="child-menu">
+                            <a href="#"><span>MEHR</span><span class="fa fa-angle-right toggle-right"></span>
+                            </a>
+                            <ul class="child-menu-ul">
+                                <li><a href="3-Mehr-ÜberUns.html">ÜBER UNS</a></li>
+                                <li><a href="3-Mehr-CO2.html">CO2-KOMPENSATION</a></li>
+                                <li><a href="3-Mehr-Rezensionen.html">REZENSIONEN</a></li>
+                                <li><a href="3-Mehr-Presse.html">PRESSE</a></li>
+                                <li><a href="3-Mehr-Partner.html">PARTNER</a></li>
+                                <li><a href="#">JOBS</a></li>
+                                <li><a href="3-Mehr-Kontakt.html">KONTAKT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="body-part"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end menu -->
+
+    <section class="sec-01 Airlines-Lufthansa-0">
+        <img src="img/img-Airlines/header.jpg" alt="">
+    </section>
+
+    <div class="Airlines-Lufthansa-9">
+        <div class="Airlines-Lufthansa-9-1">
+            <div class="segment sec-001">
+                <div class="title-card">
+                    <div class="seg-t-1">
+                        <div class="d-flex flex-row justify-content-start align-items-center mb-3">
+                            <img src="./img/img-Airlines/icon1.png" alt="">
+                            <h3 class="text-uppercase my-0">
+                                Flugausfälle und Flugverspätungen mit Lufthansa
+                            </h3>
+                        </div>
+                        <p class="">
+                            Die Deutsche Lufthansa, auch Lufthansa German Airlines, ist die größte und bekannteste
+                            deutsche Airline. In den meisten Fällen erreichen Flüge dieser Fluggesellschaft pünktlich
+                            ihren Zielflughafen. Dennoch kommt es auch bei Lufthansa hin und wieder zu Verspätungen und
+                            sogar Flugannullierungen.
+                        </p>
+                        <p>
+                            Sollten Sie von einem Flugausfall oder einer Verspätung mit Lufthansa betroffen sein, steht
+                            Ihnen
+                            gegebenenfalls eine Entschädigungszahlung in Höhe bis zu 600 Euro zu.
+                        </p>
+                        <p>
+                            Prüfen Sie Ihren Entschädigungsanspruch hier:
+                        </p>
+
+                        <div class="container-fluid statistik position-relative">
+                            <div class="btn3">
+                                <div class="anspruch_prufen">
+                                    <div class="input-group flex-nowrap btn-1">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="addon-wrapping1">
+                                                <i class="fas fa-search fa-flip-horizontal"></i>
+                                            </span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Flugnummer"
+                                            aria-label="Flugnummer" aria-describedby="addon-wrapping">
+                                    </div>
+                                    <div class="input-group flex-nowrap btn-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="addon-wrapping2">
+                                                <i class="far fa-calendar-check"></i>
+                                            </span>
+                                        </div>
+                                        <input type="seaech" class="form-control" placeholder="Datum" aria-label="Datum"
+                                            aria-describedby="addon-wrapping">
+                                    </div>
+                                    <button type="button" class="d-flex justify-content-around btn btn-light btn-3 ">
+                                        <i class="fab fa-telegram-plane"></i> ANSPRUCH PRÜFEN
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="sec-02 Airlines-Lufthansa-1">
+                <div class="segment">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-12 col-xl-6 has-border">
+                                <h3 class="text-uppercase title-dark">
+                                    Welche Entschädigung steht mir bei
+                                    Flugausfall oder Flugverspätung
+                                    mit Lufthansa zu?
+                                </h3>
+                                <ul>
+                                    <li>
+                                        Entsprechend EU-Recht stehen Ihnen bis zu 600 Euro
+                                        Entschädigung zu. Dies gilt bei bei Annullierungen, verpassten
+                                        Anschlussflügen und Flugverspätungen von mehr als drei
+                                        Stunden.
+                                    </li>
+                                    <li>
+                                        Bei den Entschädigungssummen (250 – 600 Euro) handelt es sich um
+                                        Pauschalbeträge, die unabhängig vom eigentlichen Flugpreis, erstattet werden.
+
+                                    </li>
+                                    <li>
+                                        Ein Entschädigungsanspruch kann bis zu drei Jahre
+                                        rückwirkend eingefordert werden.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xl-6 has-pad">
+                                <h3 class="text-uppercase title-dark">
+                                    Was muss ich bei Flugausfall oder
+                                    Flugverspätung mit Lufthansa beachten?
+                                </h3>
+                                <ul>
+                                    <li>
+                                        Lassen Sie sich den Grund für den Flugausfall bzw. die
+                                        Flugverspätung durch Lufthansa bestätigen!
+
+                                    </li>
+                                    <li>
+                                        Bewahren Sie alle Belege Ihrer Auslagen
+                                        gut auf!
+
+                                    </li>
+                                    <li>
+                                        Fordern Sie die Ihnen zustehende Versorgung am Flughafen ein!
+                                    </li>
+                                    <li>
+                                        Nutzen Sie unsere Software, um zu prüfen, ob Ihnen eine
+                                        Entschädigung bei Flugausfall oder Flugverspätung mit Lufthansa zusteht!
+
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="sec-10 py-5 Airlines-Lufthansa-2">
+        <div class="segment">
+            <div class="row">
+                <div class="content-box p-5">
+                    <h3 class="text-white text-uppercase mt-0">
+                        Aktuelle Flugausfälle und Flugverspätungen mit Lufthansa
+                    </h3>
+                    <p>
+                        Hier können Sie die aktuellen Flugannullierungen und Flugverspätungen einsehen, für die
+                        voraussichtlich ein Anspruch auf Entschädigungsleistungen besteht. .berprüfen Sie Ihren
+                        Entschädigungsanspruch mittels unsers Entschädigungsrechners! Fair In The Air kümmert sich um
+                        alles Weitere!
+                    </p>
+                    <button
+                        class="btn btn-block btn-primary text-uppercase d-flex justify-content-between align-items-center" aria-expanded="false" data-toggle="collapse" data-target="#drop-ul" >
+                        <i class="fa fa-angle-down fa-2x small-title"></i>
+                        <span class="small-title">AKTUELLE FLUGVERSPATUNGEN</span>
+                        <i class="fa fa-angle-down fa-2x small-title"></i>
+                    </button>
+                    <ul class="collapse list-group" id="drop-ul">
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-20 py-3 Airlines-Lufthansa-3">
+        <div class="segment">
+            <div class="px-4">
+                <h3 class="text-uppercase">
+                    Wann bekomme ich eine Entschädigung bei Flugausfall oder Flugverspätung mit Lufthansa?
+                </h3>
+                <p class="text-grey">
+                    Nach geltender EU-Fluggastrechteverordnung haben Fluggäste bei Flugausfällen, Flugverspätungen,
+                    kurzfristigen Umbuchungen und verpassten Anschlussflügen einen Anspruch auf eine
+                    Entschädigungszahlung. Ist ein Flug um mehr als drei Stunden verspätet oder fällt komplett aus, so
+                    kann Fair In The Air in den meisten Fällen ein Entschädigungsanspruch von 250 bis 600 Euro für Sie
+                    durchsetzen.
+                </p>
+
+                <hr class="divider" />
+
+                <h3 class="text-uppercase">
+                    Die Entschädigungssumme ist nicht abhängig vom Ticketpreis
+
+                </h3>
+                <p class="text-grey mb-5">
+                    Ihr ursprünglich gezahlter Flugticketpreis ist für die Höhe der Entschädigung nicht ausschlaggebend.
+                    Es handelt sich in diesem Sinne also nicht um eine Flugpreiserstattung, sondern um pauschale
+                    Entschädigungszahlungen von 250, 400 oder 600 Euro. Die Höhe des Betrags richtet<br>
+                    sich nach der Distanz der jeweiligen Flugstrecken. Die EU-Fluggastrechteverordnung bezieht sich auf
+                    Flüge (Privat- und Geschäftsreisen), die in der EU starten oder landen. Die entsprechende Airline
+                    muss ihren Sitz in der EU haben. Zudem ist entscheidend, dass die Airline auch tatsächlich
+                    Verursacherin des Flugausfalls oder der Flugverspätung ist. Außergewöhnliche Umstände, wie zum
+                    Beispiel ein Streik, eine Unwetterlage oder politische Unruhen in der jeweiligen Region, entbinden
+                    die Airline von ihrer gesetzlich vorgeschriebenen Verantwortung.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Airlines-Lufthansa-4">
+        <div class="segment">
+            <div class="bottom-box">
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-5">
+                        Flugausfälle / Flugannullierungen
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-6">
+                        Sie wurden nicht rechtzeitig (mindestens 14 Tage vor Abflug) durch die Airline über den
+                        Flugausfall informiert.
+                    </span>
+                </div>
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-5">
+                        Flugverspätungen
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-6">
+                        Sie kommen mindestens drei Stunden verspätet am geplanten Zielort an.
+                    </span>
+                </div>
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-5">
+                        Überbuchungen
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-6">
+                        Der Flug ist überbucht. Es gibt keinen Sitzplatz für Sie im Flugzeug.
+                    </span>
+                </div>
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-5">
+                        Verpasster Anschlussflug
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-6">
+                        Der gebuchte Anschlussflug startet ohne Sie. Sie kommen mindestens drei Stunden verspätet am
+                        vorgesehenen Zielort an.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="segment">
+            <h3 class="text-uppercase mb-3">Die Höhe der Entschädigungssumme ist von der Flugstrecke abhängig</h3>
+        </div>
+    </section>
+
+    <div class="segment Airlines-Lufthansa-5">
+        <div class="bottom-box">
+            <div class="row align-items-center py-3">
+                <span class="text-white col-md-4">
+                    KurzstreckeNFLUG MIT <strong>LUFTHANSA</strong>
+                </span>
+                <span class="col-md-1 text-center">
+                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                </span>
+                <span class="text-white col-md-2">
+                    bis zu <strong>1500 kmN</strong>
+                </span>
+                <span class="col-md-1 text-center">
+                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                </span>
+                <span class="text-white col-md-4">
+                    Entschädigungssumme: <strong>250,00 EURO</strong>
+                </span>
+            </div>
+
+            <div class="row align-items-center py-3">
+                <span class="text-white col-md-4">
+                    MITTELstreckeNFLUG MIT <strong>LUFTHANSA</strong>
+                </span>
+                <span class="col-md-1 text-center">
+                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                </span>
+                <span class="text-white col-md-2">
+                    bis zu <strong>3500 km</strong>
+                </span>
+                <span class="col-md-1 text-center">
+                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                </span>
+                <span class="text-white col-md-4">
+                    Entschädigungssumme: <strong>400,00 EURO</strong>
+                </span>
+            </div>
+
+            <div class="row align-items-center py-3">
+                <span class="text-white col-md-4">
+                    LANGstreckeNFLUG MIT <strong>LUFTHANSA</strong>
+                </span>
+                <span class="col-md-1 text-center">
+                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                </span>
+                <span class="text-white col-md-2">
+                    MEHR ALS <strong>3500 km</strong>
+                </span>
+                <span class="col-md-1 text-center">
+                    <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                </span>
+                <span class="text-white col-md-4">
+                    Entschädigungssumme: <strong>600,00 EURO</strong>
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="sec-08 Airlines-Lufthansa-6">
+    </section>
+
+    <section class="sec-08 Airlines-Lufthansa-7">
+        <div class="segment d-flex">
+
+            <div class="content-box sec-08-content-box m-0 p-5">
+                <h3 class="text-white text-uppercase mt-0 mb-3">
+                    Wie gehe ich bei Flugausfall oder Flugverspätung mit Lufthansa vor?
+                </h3>
+                <p class="m-0">
+                    Um mit der Hilfe von Fair In The Air Ihre Entschädigung geltend zu machen, sollten Sie zunächst
+                    klären, ob der Lufthansa-Flug die entsprechenden Voraussetzungen für einen Entschädigungsanspruch
+                    bei Flugverspätung oder Flugausfall erfüllt. Ohne den Zugriff auf Flugdatenbanken und
+                    Vergleichsfälle ist ein Anspruch als Privatperson meist nur schwer durchsetzbar. Der Fair In The Air
+                    Online-Rechner prüft für Sie innerhalb weniger Minuten, ob Sie Anspruch auf Entschädigung bei
+                    Flugannullierung bzw. Flugverspätung haben. Unsere Software gibt Ihnen sofort Auskunft darüber, wie
+                    hoch die Entschädigungszahlung ausfallen kann. Fair In The Air kümmert sich zusammen mit seinen
+                    Rechtsexperten dann um alles Weitere!
+                </p>
+            </div>
+            <div class="content-box m-0 p-5">
+                <h3 class="text-white text-uppercase mt-0 mb-3">
+                    Welche Rechte habe ich bei längeren Wartezeiten, die durch Lufthansa entstehen?
+                </h3>
+                <p class="m-0">
+                    Bei längeren Wartezeiten, die durch Lufthansa verursacht werden, haben Sie einen Rechtsanspruch auf
+                    kostenlose Essensversorgung am Flughafen. Auch haben Sie Anspruch darauf, unentgeltlich zu
+                    telefonieren oder E-Mails zu versenden.
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="pt-5 pb-2 sec-btn Airlines-Lufthansa-8">
+        <div class="segment">
+            <div class="bottom-box">
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-4">
+                        KurzstreckeNFLUG MIT <strong>LUFTHANSA</strong>
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-2">
+                        <strong> AB 2 STD. </strong> WARTEZEIT
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-4">
+                        kostenlose <strong>Getränke & Snacks</strong>
+                    </span>
+                </div>
+
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-4">
+                        MITTELstreckeNFLUG MIT <strong>LUFTHANSA</strong>
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-2">
+                        <strong> AB 3 STD.</strong> WARTEZEIT
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-4">
+                        kostenlose<strong> Getränke & MAHLZEITEN</strong>
+                    </span>
+                </div>
+
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-4">
+                        LANGstreckeNFLUG MIT <strong>LUFTHANSA</strong>
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-2">
+                        <strong>AB 4 STD.</strong> WARTEZEIT
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-4">
+                        kostenlose<strong> Getränke & MAHLZEITEN</strong>
+                    </span>
+                </div>
+
+                <div class="row align-items-center py-3">
+                    <span class="text-white col-md-4">
+                        ÜBERBUCHUNG BEI<strong> LUFTHANSA</strong>
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-2">
+                        <strong> AB 0 STD.</strong> WARTEZEIT
+                    </span>
+                    <span class="col-md-1 text-center">
+                        <img src="./img/aro-right-02.png" alt="" style="width: 30px">
+                    </span>
+                    <span class="text-white col-md-4">
+                        kostenlose<strong> Getränke & MAHLZEITEN</strong>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="segment py-xl-5">
+            <div class="row d-flex justify-content-start align-items-stretch table-flex">
+                <div class="col-md-6 tablet">
+                    <img src="./img/img-Airlines/img2.jpg" alt="" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="col-md-6 tablet tablet-mt-3 px-4">
+                    <h3 class="text-uppercase mb-4 mt-0 f-19">
+                        Lufthansa:<br>Flugverspätungen von mehr als 5 Stunden
+                    </h3>
+                    <p>
+                        Bei Verspätungen von mehr als 5 Stunden steht Ihnen der Rücktritt von der Flugreise zu. Die
+                        Fluggesellschaften sind verpflichtet, alle Ihnen entstandenen Kosten zu erstatten oder eine für
+                        Sie zumutbare Alternativbeförderung zum Zielort zu ermöglichen. Möchten Sie Ihren Flug nicht
+                        mehr antreten, so müssen die Airlines für den Transport vom Airport zu Ihrem Ausgangspunkt
+                        sorgen.
+                    </p>
+                    <h3 class="text-uppercase mb-4 f-19">
+                        Lufthansa:<br>Flugverspätungen von mehr als einem Tag
+                    </h3>
+                    <p>
+                        Sollte sich die Zeit Ihres Abflugs um mehr als einen Tag verspäten, so dass Sie deshalb auf eine
+                        Hotelübernachtung vor Ort angewiesen sind, sind Fluggesellschaften dazu verpflichtet, Ihnen eine
+                        kostenfreie Hotelübernachtung in der Nähe zu ermöglichen. Alle anfallenden
+                        Ausgaben,beispielsweise für den Hin- und Rücktransport zum Airport, müssen die
+                        Fluggesellschaften in diesem Fall ebenfalls übernehmen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container pt-5 text-white">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="footer-contact d-flex flex-column">
+                        <div class="footer-logofair"> <img src="img/logo-fair.png" class="logofair"></div>
+                        <div class="footer-address d-flex flex-column mt-2">
+                            <p>FAIR IN THE AIR GmbH</p>
+                            <p>Musterstraße 41</p>
+                            <p>80333 Berlin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="official d-flex flex-column">
+                        <div class="title">
+                            <h2>OFFIZIELLES</h2>
+                        </div>
+                        <div class="official-section d-flex flex-column mt-2"> <a href="#">IMPRESSUM</a> <a
+                                href="#">DATENSCHUTZ</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="socilal d-flex flex-column mt-3 mt-md-0">
+                        <div class="title">
+                            <h2>socilal media</h2>
+                        </div>
+                        <div class="social-networks d-flex mt-2">
+                            <div class="facebook"> <a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                            <div class="twitter ml-3"> <a href="#"><i class="fab fa-twitter"></i></a></div>
+                            <div class="instagram ml-3"> <a href="#"><i class="fab fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="advisor d-flex flex-column mt-3 mt-md-0">
+                        <div class="title">
+                            <h2>KUNDENBERATUNG</h2>
+                        </div>
+                        <div class="meta d-flex align-items-center mt-2">
+                            <div class="bg-white tell py-1"><i class="fas fa-phone fa-flip-horizontal pl-2 mx-2"></i>
+                            </div> <span class="bg-white pr-2 py-1">+49 800 897 8543</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="mt-5"> <img src="img/p9.png" alt=""></div>
+        </div>
+    </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src='js/slick.min.js'></script>
+    <script src="js/timelineslider.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
